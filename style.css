@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+   
+    background-color: rgb(67, 63, 114);
+    text-align: center;
+    padding: 20px;
+}
+.content-main{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+.choice img{
+    width: 200px;
+    height: 200px; 
+    background-size: cover;
+    border-radius:100em;
+    
+}
+.choice img:hover{
+    opacity: 0.3;
+}
+
+.scored-board{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+    
+}
+.score{
+    margin: 30px;
+}
+#user-score ,#comp-score{
+
+    font-size: 4rem;
+    margin-left: 20px;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 30px;
+}
+#msg{
+    background-color: rgb(8, 8, 12);
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1.7rem;
+
+}
